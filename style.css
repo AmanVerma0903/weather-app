@@ -1,0 +1,163 @@
+
+
+.weather_app{
+    padding: 0;
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    overflow: hidden;
+  
+
+}
+.search_bar{
+    
+    margin-left: 50px;
+    margin-top: 40px;
+    
+    
+    
+}
+
+.search_type{
+    text-align: center;
+    border-radius: 50px;
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border-style:none;
+    overflow: hidden;
+}
+.search{
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    overflow: hidden;
+}
+.search i{
+    opacity: 0.9;
+    font-size: 15px;
+   
+}
+
+ .weather_img{
+     height: 100px;
+     width: 100px;
+     margin-left: 140px;
+     margin-top: 20px;
+    
+ }
+    
+
+
+
+.temp {
+    font-size: 80px; 
+    margin: 130px;
+   color:white;
+   
+
+
+   
+}
+.location{
+    
+   font-size: 30px; 
+   position: absolute;
+   width: auto;
+   height: auto;
+   
+   color: rgb(213, 206, 206);  
+   left: 710px;
+   
+    
+  
+  
+   
+   
+}
+
+.humidity i{
+    font-size:30px ;
+    
+ }
+
+.humidity{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 190px;
+    color: rgb(213, 206, 206); 
+    
+
+ }
+ #h{
+    font-size: 15px;
+    color: rgb(213, 206, 206); 
+    position: absolute;
+    top: 35px;
+    right: 3px;
+    
+    
+ }
+ #hum{
+    
+    color: rgb(213, 206, 206);
+    font-size: 25px;
+    padding-left: 10px;
+    
+}
+
+.wind_speed{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 190px;
+    color: rgb(213, 206, 206); 
+    left: 800px;
+    
+    
+    
+}
+.wind_speed i{
+    font-size: 30px;
+    color: (213, 206, 206); 
+}   
+
+#win{
+   
+    color: rgb(213, 206, 206);
+    font-size: 20px;
+    padding-left: 10px;
+    
+   
+   
+}
+#w{
+    color:rgb(213, 206, 206);  
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    font-size: 15px;
+    overflow: hidden;
+ }
+ .search:hover{
+    background-color: #F2F9FF;
+    
+}
+.search_type:hover{
+    background-color: #F2F9FF;
+   
+}
+input::placeholder{
+    text-align: center;
+    opacity: 1;
+    overflow: hidden;
+ }
