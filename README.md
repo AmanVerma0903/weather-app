@@ -1,8 +1,53 @@
-# weather-app
-This weather application is a dynamic and user-friendly tool designed to provide real-time weather updates for any city around the world. Built using HTML, CSS, JavaScript, and integrated with a weather API, the app allows users to simply enter the name of a city, and instantly retrieve up-to-date weather information.
+# Weather App
 
-Upon entering a city, the app fetches and displays essential weather data such as the current temperature in Celsius, humidity percentage, and wind speed. This ensures users can quickly access key details about the weather conditions in their desired location. The temperature is provided in Celsius, offering a more universally understood unit for global users. The humidity level, displayed as a percentage, helps users understand how moist or dry the air is, which is especially important for health and comfort. Additionally, the app shows the wind speed, which can be particularly useful for outdoor activities or travel plans.
+A simple weather application built with HTML, CSS, and JavaScript. Enter a city name to get real-time weather information including temperature, humidity, wind speed, and a weather icon.
 
-The app’s user interface is clean and simple, designed with HTML and styled using CSS for a responsive and aesthetically pleasing experience. It features a search bar where users can type in the name of the city, and upon pressing the search button, the weather details are displayed in a structured format. The app is built to be intuitive, ensuring that even those with minimal technical knowledge can use it with ease.
+## Features
 
-JavaScript powers the functionality, handling the API requests and processing the data to ensure accurate real-time weather updates. By tapping into a reliable weather API, the app ensures that users receive the latest and most accurate information available. Whether you're checking the weather for your daily commute or planning a trip, this weather app serves as a practical and efficient solution to keep you informed about the weather conditions wherever you are.
+- Search weather by city name
+- Displays temperature in Celsius
+- Shows humidity and wind speed
+- Weather icons for different conditions
+- Responsive and modern UI
+
+## Project Structure
+
+```
+404.png
+app.js
+clear.png
+cloud.png
+images.jpeg
+index.html
+mist.png
+rain.png
+snow.png
+style.css
+assets/
+    404.png
+    clear.png
+    cloud.png
+    mist.png
+    rain.png
+    snow.png
+```
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/weather-app.git
+   cd weather-app
+   ```
+
+2. **Open `index.html` in your browser.**
+
+3. **Enter a city name and click the search icon to view the weather.**
+
+## API
+
+This app uses the [OpenWeatherMap API](https://openweathermap.org/api). You may need to replace the API key in `app.js` with your own.
+
+## 👤 Author
+
+**Aman Verma**
